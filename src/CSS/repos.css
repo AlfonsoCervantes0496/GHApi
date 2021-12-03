@@ -1,0 +1,106 @@
+.ffON{
+    background-color: black;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ffON div{
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px white;
+    width: 38%;
+    margin-left: 5%;
+    background-color: black;
+    text-align: center;
+    
+    border-radius: 10px;
+    margin-bottom: 1rem;
+
+}
+
+.ffOFF{
+    background-color: white;
+    color: black;
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ffOFF div{
+    
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    box-shadow: 2px 2px 10px black;
+    width: 38%;
+    margin-left: 5%;
+    background-color: white;
+    text-align: center;
+    
+    border-radius: 10px;
+    margin-bottom: 1rem;
+
+}
+
+@media(max-width:770px){
+    .ffON{
+        background-color: black;
+        color: white;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .ffOFF{
+        background-color: white;
+        color: black;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .ffOFF div{
+    
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        box-shadow: 2px 2px 10px black;
+        width: 90%;
+        margin: 5%;
+        background-color: white;
+        text-align: center;
+        
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    
+    }
+
+    .ffON div{
+    
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        box-shadow: 2px 2px 10px white;
+        width: 90%;
+        margin: 5%;
+        background-color: black;
+        text-align: center;
+        
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    
+    }
+
+
+
+
+
+}

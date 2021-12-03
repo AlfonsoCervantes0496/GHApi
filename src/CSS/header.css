@@ -1,0 +1,44 @@
+.headerDiv1{
+display: flex;
+margin: 1rem;
+overflow: hidden;
+}
+
+.SwDarkMode{
+    border-radius: 15px;
+    border-style: outset;
+    border-color: white;
+    background-color: yellowgreen;
+    width: 15%;
+    text-align: center;
+    margin-right: -13%;
+    transition: ease 2s;
+   
+
+}
+
+.SwDarkMode:hover{
+    margin-right: 1rem;
+}
+
+header button{
+    border-radius: 15px;
+    
+    border-color: black;
+    border-style: unset;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+/*cambios a dark*/
+/*fondo*/
+.fON{background-color: black; color: white;}
+.fOFF{background-color: white; color: black;}
+
+
+
+/*boton color*/
+.bON{background-color: red; color: white;}
+.bOFF{background-color: green; color: white;}
