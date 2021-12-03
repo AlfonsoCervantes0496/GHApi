@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 
 import { useContext } from 'react'
 import DataContext from '../contex/DataArray'
@@ -11,7 +11,7 @@ const Repositories = () => {
 
     //context
     const {Dark} = useContext(Darkcontext)
-    const { data, repositories,  }=useContext(DataContext)
+    const {repositories,  }=useContext(DataContext)
 
     console.log(repositories)
     return (

@@ -9,7 +9,7 @@ const Following = () => {
 
     //context
     const {Dark} = useContext(Darkcontext)
-    const {dataFollowing, inputText, FoollowerDetail, data }=useContext(DataContext)
+    const {dataFollowing, FoollowerDetail}=useContext(DataContext)
     console.log(dataFollowing)
 
 

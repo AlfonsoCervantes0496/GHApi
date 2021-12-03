@@ -13,7 +13,7 @@ import "../CSS/Followers.css"
 const Followers = () => {
     const {Dark} = useContext(Darkcontext)
 
-    const {dataFollowers, inputText, FoollowerDetail, data }=useContext(DataContext)
+    const {dataFollowers,FoollowerDetail, data }=useContext(DataContext)
     console.log(data)
 
     return (
